@@ -1,0 +1,26 @@
+body { 
+    background-color:yellow; 
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: medium;
+}
+
+.titulo-centrado {
+    text-align: center;
+}
+
+.titulo-izquierda {
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
