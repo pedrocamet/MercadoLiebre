@@ -13,8 +13,13 @@ h1 {
 
 .titulo-izquierda {
     text-align: left;
-    width: 100%;
+    width: 50%;
 }
+
+.azul{
+    background-color: blue;
+}
+
 
 
 
