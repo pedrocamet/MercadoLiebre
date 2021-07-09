@@ -1,10 +1,78 @@
-header { 
-    background-color:yellow; 
-    font-family: 'Lato', sans-serif;
+
+body{
+    margin: 0%;
+    font-family: sans-serif;
 }
 
-h1 {
+/* Header */
+
+header{
+    background-color: yellow;
+    margin: 0%;
+}
+
+.header-padre { 
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.header-logo{
+    border: 10px;
+    margin-left: 100px;
+}
+
+.header-buscador{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box-buscador {
+    display: flex;
+    padding: .375rem .75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    text-align: left;
+    width: 100%;
+}
+
+.header-derecha{
+    margin-right: 20px;
+
+}
+
+.categorias-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* Main */
+
+main{
+    background-color: #e0e0eb;
+    margin: 0%;
+}
+
+.publicaciones-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.titulo {
     font-size: medium;
+    margin-left: 80px;
 }
 
 .titulo-centrado {
@@ -19,6 +87,27 @@ h1 {
 .azul{
     background-color: blue;
 }
+
+.descripProducto{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    font-size:10px;
+    position: relative;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+.footer-pagos{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
 
 
 

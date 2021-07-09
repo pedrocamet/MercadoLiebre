@@ -12,7 +12,7 @@ app.get('/', (req,res) =>{
 
 
 app.listen(3001, function() {
-    console.log("Servidor corriendo");
+    console.log("Servidor corriendo en el puerto 3001");
 });
 
 app.get('/login', (req,res) =>{
