@@ -1,3 +1,4 @@
+/* Styles Home */
 
 body{
     margin: 0%;
@@ -52,9 +53,9 @@ header{
 .categorias {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
+
 
 /* Main */
 
@@ -108,13 +109,102 @@ footer {
     justify-content: stretch;
 }
 
+/* Styles LogIn */
 
+.caja-padre-sesion {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+}
 
+.caja-sesion {
+    background: transparent;
+    border: 0;
+    resize: none;
+    overflow: hidden;
+    border-radius: 375rem;
+}
 
+.andes-form-control {
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 18px;
+    position: relative;
+    padding-top: .6666666667em;
+    font-weight: 400;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+}
 
+.andes-form-control-control {
+    position: relative;
+}
 
+.contenedor-main {
+    height: 100%;
+    position: relative;
+}
 
+.cajon-email {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    margin: auto;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    justify-content: center;
+    text-align: left;
+  }
 
+  .boton {
+      border-color: transparent;
+      background-color: #3483fa;
+      color: #fff;
+      cursor: pointer;
+      box-shadow: 0 0 0 0 #fff;
+      width: 30%;
+      display: flex;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-family: 600;
+      line-height: 48px;
+      text-align: center;
+      border-radius: 6px;
+      height: 48px;
+      justify-content: center;
+      align-items: center;
+  }
 
+  .texto-izquierda {
+      text-align:  left;
+      font-size: medium;
+  }
 
+  .boton2 {
+    border-color: transparent;
+    background-color: #fff;
+    color: #3483fa;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 #fff;
+    width: 30%;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 600;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 6px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+}
 
