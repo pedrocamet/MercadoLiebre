@@ -53,7 +53,7 @@ header{
 .categorias {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -208,3 +208,15 @@ footer {
     align-items: center;
 }
 
+
+/* Styles registro */
+
+.footer-diseño {
+    margin-bottom: 0%;
+}
+
+.container-registro {
+    position: relative;
+    font-size: 0;
+    
+}
