@@ -139,7 +139,8 @@
         position: relative;
         padding-top: .6666666667em;
         font-weight: 400;
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         -webkit-font-smoothing: antialiased;
         text-align: left;
         width: 100%;
@@ -228,7 +229,5 @@
         position: relative;
         font-size: 0;
         width: 100%;
-        
-
     }
 }
