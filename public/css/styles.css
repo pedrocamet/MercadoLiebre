@@ -135,7 +135,6 @@
     }
 
     .andes-form-control {
-        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
         font-size: 18px;
         position: relative;
         padding-top: .6666666667em;
@@ -143,6 +142,8 @@
         display: block;
         -webkit-font-smoothing: antialiased;
         text-align: left;
+        width: 100%;
+
     }
 
     .andes-form-control-control {
@@ -226,6 +227,8 @@
     .container-registro {
         position: relative;
         font-size: 0;
+        width: 100%;
+        
 
     }
 }
